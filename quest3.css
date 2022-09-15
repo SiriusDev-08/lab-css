@@ -1,0 +1,80 @@
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .change-color {
+    background-color: #aba555;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .change-color {
+    background-color: #000000;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 600px) {
+  .change-color {
+    background-color: lightblue;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .change-color {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+  .change-color {
+    background-color: lightyellow;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+  .change-color {
+    background-color: brown;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px) {
+  .change-color {
+    background-color: darkblue;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  .change-color {
+    background-color: darkgreen;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .change-color {
+    background-color: darkred;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2048px) {
+  .change-color {
+    background-color: #dcdcdc;
+  }
+}
+
+.just-show-out {
+  color: white;
+  background-color: #000000;
+}
+
+@media screen and (orientation: potrait) {
+  .just-show-out {
+    display: none;
+    color: white;
+    background-color: #000000;
+  }
+}
+
+header {
+  color: white;
+}
+
+.example-text {
+  color: white;
+}
