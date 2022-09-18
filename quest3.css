@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 /* Responsividade no celular */
 @media all and (max-width: 768px) {
   .verde {
@@ -38,13 +43,13 @@
     width: 100vw;
     top: 50%;
   }
-  .roxa-d {
+  .roxa {
     display: none;
   }
-  .verde-clara-d {
+  .verde-clara {
     display: none;
   }
-  .azul-clara-d {
+  .azul-clara {
     display: none;
   }
 }
@@ -68,29 +73,29 @@
     width: 100vw;
     top: 20%;
   }
-  .roxa-d {
+  .roxa {
     background-color: purple;
     display: block;
     position: fixed;
     height: 20vh;
     width: 100vw;
-    top: 20%;
+    top: 40%;
   }
-  .verde-clara-d {
+  .verde-clara {
     background-color: lightgreen;
     display: block;
     position: fixed;
     height: 20vh;
     width: 100vw;
-    top: 20%;
+    top: 60%;
   }
-  .azul-clara-d {
+  .azul-clara {
     background-color: lightblue;
     display: block;
     position: fixed;
     height: 20vh;
     width: 100vw;
-    top: 20%;
+    top: 80%;
   }
 }
 
